@@ -3,7 +3,7 @@
 echo "\033[1;33m What have you done to the site?"
 read update
 
-webpack --optimize-minimize --optimize-dedupe
+npm run bundle
 git commit -am "Create new bundle"
 
 TMP_DIR=/tmp/saito-tempo-piaui/
