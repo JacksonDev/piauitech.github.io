@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "bundle": "webpack --optimize-minimize --optimize-dedupe"
+    "bundle": "webpack --optimize-minimize --optimize-dedupe",
+    "publish": "./build.sh"
   },
   "repository": {
     "type": "git",
