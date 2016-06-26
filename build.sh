@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "\033[1;33m What have you done to the site?"
+echo "\033[1;33m What have you done to the site?\033[0m"
 read update
 
 npm run bundle
