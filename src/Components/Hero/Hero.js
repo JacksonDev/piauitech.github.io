@@ -1,21 +1,24 @@
 import React from 'react'
 import 'particles.js'
-import { componentDidMount } from 'react-lifecycle-hoc'
+import 'style.css'
 
 function Hero(){
   return (
     <div id="hero-wrapper">
-     	<div id="particles-js">
-     		<h1>piauí.tech</h1>
-     	</div>
+     	<article>
+        <h1>piauí.tech</h1>
+      </article>
+      <div id="particles-js">
+      <script src="particles.js"></script>
+     </div>
     </div>
   )
 }
 
-export default componentDidMount(
+export default Hero(
   () => {
     /* eslint-disable no-undef */
     particlesJS('particles-js', require('./particles-config.json'));
     /* eslint-enable no-undef */
   }
-)(Hero)
+)
