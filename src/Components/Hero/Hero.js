@@ -9,7 +9,7 @@ class Hero extends React.Component{
       <div class="hero-wrapper">
         <section class="hero">
           <div id="particles-js">
-            <h1>Piauí.tech</h1>
+            <h1>piauí.tech</h1>
           </div>
         </section>
         <div id="particles-js"></div>
@@ -21,7 +21,7 @@ class Hero extends React.Component{
 export default componentDidMount(
   () => {
     /* eslint-disable no-undef */
-    particlesJS('particles-js', require('./particles.json'));
+    particlesJS('particles-js', require('./particlesjs-config.json'));
     /* eslint-enable no-undef */
   }
 )(Hero)
